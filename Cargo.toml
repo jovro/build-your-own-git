@@ -1,0 +1,18 @@
+# CodeCrafters Note:
+#
+# We've included a set of dependencies that we think are essential for this challenge. You
+# can make changes to this file if you'd like to use different dependencies.
+#
+# When updating this file, make sure to run `cargo build` to ensure that `Cargo.lock` is updated too.
+[package]
+name = "mygit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.32", features = ["derive"] }
+fs2 = "0.4.3"
+flate2 = "1.1.0"
+sha1 = "0.10.6"
+hex = "0.4.3"
+anyhow = "1.0.59"
